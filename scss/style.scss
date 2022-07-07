@@ -119,6 +119,7 @@ $white-color: #fff;
 .order__button {
     font-size: 25px;
     background-color: $main-color-one;
+    color: $white-color;
     text-transform: uppercase;
     font-weight: bold;
 
@@ -126,7 +127,7 @@ $white-color: #fff;
     border-radius: 180px;
     cursor: pointer;
 
-    padding: 20px 75px;
+    padding: 15px 75px;
 }
 
 
@@ -156,11 +157,12 @@ $white-color: #fff;
     text-align: center;
     font-weight: bold;
 
-    margin-bottom: 85px;
+    margin-bottom: 40px;
 }
 .block-one__text {
     font-size: 20px;
     text-align: center;
+    line-height: 1.3;
 
     margin: 0 100px 80px;
 }
@@ -193,4 +195,29 @@ $white-color: #fff;
 }
 .examples__text {
     font-size: 17px;
+
+    line-height: 1.2;
+}
+
+
+
+/* Block-two    */
+
+.block-two {
+}
+.block-two__container {
+}
+.container {
+}
+.block-two__img {
+}
+.block-two__icon {
+}
+.block-two__item {
+}
+.block-two__title {
+}
+.block-two__text {
+}
+.order__button {
 }
