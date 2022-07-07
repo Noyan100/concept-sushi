@@ -53,6 +53,7 @@ table {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Header    */
 .header {
   background-color: #21243d;
   color: #fff;
@@ -94,4 +95,57 @@ table {
 }
 .header__item-link:visited {
   color: #fff;
+}
+
+/* Order    */
+.order__container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/order__bg.png);
+  background-size: cover;
+  position: relative;
+}
+.order__container *:not(.order__container--shadow) {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.order__container--shadow {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(146, 61, 8, 0.2980392157);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.order__item {
+  width: 50%;
+  position: absolute;
+  left: 50px;
+  top: 170px;
+}
+
+.order__title {
+  font-size: 124px;
+  font-weight: bold;
+  margin: 0 0 80px 15px;
+}
+
+.order__text {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.order__button {
+  font-size: 25px;
+  background-color: #21243d;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  border-radius: 180px;
+  cursor: pointer;
+  padding: 20px 75px;
 }
