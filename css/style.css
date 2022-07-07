@@ -136,6 +136,7 @@ table {
 
 .order__text {
   font-size: 30px;
+  line-height: 1.4;
   margin-bottom: 50px;
 }
 
@@ -354,3 +355,5 @@ table {
   left: 0;
   z-index: 0;
 }
+
+/*  Response    */
