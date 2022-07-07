@@ -410,3 +410,70 @@ table {
 }
 
 /*  Form    */
+.form__container {
+  height: 100vh;
+  background-color: #ffd17e;
+  color: #21243d;
+  position: relative;
+  text-align: center;
+}
+
+.form__background {
+  width: 100%;
+  height: 100vh;
+  background: url(../assets/form__bg.png) left no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.form__item {
+  position: relative;
+  top: 150px;
+}
+
+.form__title {
+  font-size: 75px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+.form__text {
+  font-size: 30px;
+  padding: 0 250px;
+  margin-bottom: 90px;
+}
+
+.form__inputform {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form__input {
+  font-size: 25px;
+  border: 0;
+  border-radius: 80px 0 0 80px;
+  padding: 10px 0;
+  padding-left: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.form__label {
+  font-size: 25px;
+  background-color: #21243d;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 25px;
+  z-index: 3;
+}
